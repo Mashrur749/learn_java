@@ -16,9 +16,9 @@ public class MyThread  implements Runnable{
 	public void run() {
 		// TODO Auto-generated method stub
 		try {
-			System.out.printf("%s us sleeping for %d", name, time);
+			System.out.println(name + " us sleeping for " + time);
 			Thread.sleep(time);
-			System.out.println(name + "is done");
+			System.out.println(name + " is done");
 		}catch(Exception e) {
 			
 		}
