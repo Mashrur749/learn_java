@@ -1,4 +1,3 @@
-package com.newthinktank;
 
 import java.util.*;
 
@@ -14,7 +13,6 @@ public class MyThread  implements Runnable{
 	
 	@Override
 	public void run() {
-		// TODO Auto-generated method stub
 		try {
 			System.out.println(name + " us sleeping for " + time);
 			Thread.sleep(time);
