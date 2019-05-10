@@ -15,9 +15,9 @@ public class threadInstance {
 			t3.join();
 			t4.join();
 		}catch(Exception e) {
-			
+
 		}
-		
+
 	}
 	
 }
