@@ -1,7 +1,0 @@
-package com.newthinktank;
-
-public interface EnemyAttacker {
-	public void fireWeapon();
-	public void driveForward();
-	public void assignDriver();
-}

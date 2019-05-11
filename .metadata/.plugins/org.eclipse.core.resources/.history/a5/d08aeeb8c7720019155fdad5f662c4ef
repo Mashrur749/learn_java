@@ -1,5 +1,0 @@
-package com.newthinktank;
-
-public class threadInstance {
-	Thread t1 = new Thread(new MyThread())
-}
