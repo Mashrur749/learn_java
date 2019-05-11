@@ -1,0 +1,11 @@
+package com.newthinktank;
+
+public class MyThread extends Thread{
+	int mark;
+	MyThread(int m){
+		mark = m;
+	}
+	public void run () {
+		
+	}
+}

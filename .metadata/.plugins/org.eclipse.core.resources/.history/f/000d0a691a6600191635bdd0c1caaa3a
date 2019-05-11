@@ -1,0 +1,33 @@
+
+package com.newthinktank;
+ 
+// Dialog used for user input
+import javax.swing.JOptionPane;
+ 
+// Right click project New -> Package
+// Right click Package -> New Class
+// Run -> Java Application -> HelloWorld
+ 
+// Public class other classes can access
+// Classes are blueprints for modeling real
+// world objects or systems
+// The code between { } belongs to the class
+ 
+/*
+ * Multiline Comment
+ */
+ 
+// Used to get user input
+// Array functions
+// ArrayLists
+// Iterators
+// Used to get collection types (Lists)
+import java.util.*;
+ 
+// Used to generate ranges
+import java.util.stream.IntStream;
+public class HelloWorld{
+	public static void main(String[] args) {
+		System.out.println("yeyp");
+	}
+}

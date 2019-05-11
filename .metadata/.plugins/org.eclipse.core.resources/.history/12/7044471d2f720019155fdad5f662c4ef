@@ -1,0 +1,11 @@
+
+package com.newthinktank;
+import java.util.*;
+
+
+
+public class HelloWorld  {
+	public static void main(String[] args)  {
+		System.out.println(Math.pow(4, 3));
+	}
+}

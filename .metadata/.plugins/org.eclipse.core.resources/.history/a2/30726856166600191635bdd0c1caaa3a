@@ -1,0 +1,39 @@
+package com.newthinktank;
+
+import java.util.*;
+
+import java.util.stream.IntStream;
+
+public class HelloWorld {
+	static Scanner sc = new Scanner(System.in);
+	
+	final double SHORTPI = 3.14159;
+	public enum Day {Monday,Tuesday,Wednesday};
+//
+//	public static int getSum2(int ... nums) {
+//		int sum = 0;
+//		for(int x: nums) {
+//			sum += x;
+//		}
+//		return sum;
+//	}
+	
+	public static int getAllSum(int[] a) {
+		int val = 0;
+		for(int x: a)
+			val+=x;
+		return val;
+	}
+	
+	static int[] getNext2(int x) {
+		int[] vals = new int[2];
+		vals[0] = x + 1;
+		vals[1] = x + 2;
+		return vals;
+	}
+ 
+		
+	public static void main(String[] args) {
+		int i  = 2;
+	}
+}

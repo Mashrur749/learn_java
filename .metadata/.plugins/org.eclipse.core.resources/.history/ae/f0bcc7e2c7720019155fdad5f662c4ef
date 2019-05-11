@@ -1,0 +1,11 @@
+package com.newthinktank;
+
+public class threadInstance {
+	public static void main(String[] args) {
+		Thread t1 = new Thread(new MyThread("one"));
+		Thread t1 = new Thread(new MyThread("two"));
+		Thread t1 = new Thread(new MyThread("three"));
+		Thread t1 = new Thread(new MyThread("four"));
+	}
+	
+}

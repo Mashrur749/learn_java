@@ -1,0 +1,12 @@
+
+package com.newthinktank;
+ 
+import java.util.*;
+ 
+// Used to generate ranges
+import java.util.stream.IntStream;
+public class HelloWorld{
+	public static void main(String[] args) {
+		
+	}
+}

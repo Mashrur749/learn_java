@@ -1,0 +1,24 @@
+package com.newthinktank;
+import java.util.Random;
+public class EnemyTank implements EnemyAttacker{
+	Random generator = new Random();
+	@Override
+	public void fireWeapon() {
+		// TODO Auto-generated method stub
+		int attackDamage = generator.nextInt(10);
+		System.out.println();
+	}
+
+	@Override
+	public void driveForward() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void assignDriver() {
+		// TODO Auto-generated method stub
+		
+	}
+	
+}
